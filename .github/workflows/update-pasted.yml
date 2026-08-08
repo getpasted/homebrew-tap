@@ -23,7 +23,7 @@ jobs:
         run: |
           cask_path="$RUNNER_TEMP/pasted.rb"
           if ! curl --fail --silent --show-error --location \
-            https://github.com/pasted-app/pasted/releases/latest/download/pasted.rb \
+            https://github.com/getpasted/pasted/releases/latest/download/pasted.rb \
             --output "$cask_path"; then
             echo '::notice::Pasted has no public release Cask yet; nothing to update.'
             echo 'available=false' >> "$GITHUB_OUTPUT"

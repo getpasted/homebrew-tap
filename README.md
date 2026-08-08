@@ -1,15 +1,15 @@
 # Pasted Homebrew Tap
 
-Install [Pasted](https://github.com/pasted-app/pasted) and its `pasted` command-line tool with:
+Install [Pasted](https://github.com/getpasted/pasted) and its `pasted` command-line tool with:
 
 ```sh
-brew install --cask pasted-app/tap/pasted
+brew install --cask getpasted/tap/pasted
 ```
 
 Or tap this repository first:
 
 ```sh
-brew tap pasted-app/tap
+brew tap getpasted/tap
 brew install --cask pasted
 ```
 
