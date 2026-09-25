@@ -1,6 +1,6 @@
 cask "pasted" do
-  version "1.1.0"
-  sha256 "a726134030a87cf6f9d9c967db0a0b2ac4f89d432a5e94517b87000e265eb7d1"
+  version "1.2.0"
+  sha256 "f425dc73a86954454512588ffd151795902a9fc460f5ae2e33299037d43ac0ac"
 
   url "https://github.com/getpasted/pasted/releases/download/v#{version}/Pasted_#{version}_universal.dmg"
   name "Pasted"
